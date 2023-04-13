@@ -17,17 +17,17 @@ public class DoublyLinkedLists {
     Node nodeA = newNode(0);   
     Node nodeB = newNode(1);
     public static void main(String[] args) {
-  
+   int m = 10;
           DoublyLinkedList numList = new DoublyLinkedList();
    int[] array = numList.toArray();  // 1. toArray method
    System.out.print("List to array: ");
+   
    for(int n:array){
        System.out.print("");
    }                 // 2. find IndexOf(object)
    int num = 0;
    System.out.println("/nindex of "+numList.indexOf(num));
     }
-
     private Node newNode(int i) {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
